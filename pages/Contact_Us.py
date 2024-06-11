@@ -1,11 +1,6 @@
 import streamlit as st
-import os
+# import sqlite3
 
-from dotenv import load_dotenv
-import sqlite3
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Create response form
 with st.form("Response Form"):
